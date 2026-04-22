@@ -1,0 +1,13 @@
+Beagle_Dog
+Blackbuck_Antelope
+Cat
+Cow
+Elephant
+Lion
+Panda
+Pig
+Red_Panda
+Rhino
+Snow_Leopard
+Tiger
+Zebra
