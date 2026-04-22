@@ -1,0 +1,83 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.Python
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# YOLO / Ultralytics
+# ========================
+# Training outputs (thường rất nặng)
+runs/
+
+# Pretrained weights (tải lại từ Ultralytics)
+yolo11m.pt
+yolo11m-seg.pt
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+
+# ========================
+# Dataset
+# ========================
+Dataset/
+Create_newLabel/Input_Img/
+Transform_Img/Input_Img/
+Transform_Img/Output_Img/
+Input_Train/
+
+# ========================
+# Detect output
+# ========================
+Detect_Img/Input/
+Detect_Img/Output/
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs & cache
+# ========================
+*.log
+*.cache
+.pytest_cache/
+.mypy_cache/
